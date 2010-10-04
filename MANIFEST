@@ -1,0 +1,17 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+Sword.xs
+dist.ini
+examples/basic.pl
+inc/SwordMakeMaker.pm
+lib/Sword.pm
+lib/Sword/Manager.pm
+lib/Sword/Module.pm
+t/sword.t
+typemap
+weaver.ini
