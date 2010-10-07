@@ -1,10 +1,11 @@
 package Sword;
 BEGIN {
-  $Sword::VERSION = '0.102770';
+  $Sword::VERSION = '0.102800';
 }
 use strict;
 use warnings;
 
+use Sword::Key;
 use Sword::Manager;
 use Sword::Module;
 
@@ -22,7 +23,7 @@ Sword - provides an interface to the Sword Open Source Bible Software API
 
 =head1 VERSION
 
-version 0.102770
+version 0.102800
 
 =head1 SYNOPSIS
 
@@ -76,11 +77,29 @@ This module exists for convenience and does nothing more than load the most comm
 
 =item *
 
+L<Sword::Key>
+
+=item *
+
 L<Sword::Manager>
 
 =item *
 
 L<Sword::Module>
+
+=back
+
+=head1 BUGS
+
+=over
+
+=item *
+
+This almost certainly leaks memory. I need to work on that.
+
+=item *
+
+This library does not yet cover very much of what the Sword API is capable of.
 
 =back
 

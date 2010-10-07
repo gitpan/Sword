@@ -9,7 +9,6 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Interface to libsword Bible software API',
   'AUTHOR' => 'Andrew Sterling Hanenkamp <hanenkamp@cpan.org>',
   'BUILD_REQUIRES' => {
-    'Moose' => '0',
     'Test::More' => '0'
   },
   'CC' => 'g++',
@@ -27,7 +26,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'XSLoader' => '0'
   },
-  'VERSION' => '0.102770',
+  'VERSION' => '0.102800',
   'XSOPT' => '-C++ -noprototypes',
   'test' => {
     'TESTS' => 't/*.t'

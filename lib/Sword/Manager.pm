@@ -1,6 +1,6 @@
 package Sword::Manager;
 BEGIN {
-  $Sword::Manager::VERSION = '0.102770';
+  $Sword::Manager::VERSION = '0.102800';
 }
 use strict;
 use warnings;
@@ -22,7 +22,7 @@ Sword::Manager - Sword library manager
 
 =head1 VERSION
 
-version 0.102770
+version 0.102800
 
 =head1 SYNOPSIS
 

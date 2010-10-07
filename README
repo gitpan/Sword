@@ -38,7 +38,7 @@ See the POD in Sword.pm for usage:
   perldoc Sword
 
 This archive contains the distribution Sword,
-version 0.102770:
+version 0.102800:
 
   Interface to libsword Bible software API
 
